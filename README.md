@@ -1,4 +1,4 @@
-# LilyGO T-Display RP2040
+# 🌟LilyGO T-Display RP2040🌟
 
 ## Arduino
 Windows Users: Please do not use the Windows Store version of the actual Arduino application because it has issues detecting attached Pico boards. Use the "Windows ZIP" or plain "Windows" executable (EXE) download direct from https://arduino.cc. and allow it to install any device drivers it suggests. Otherwise the Pico board may not be detected. Also, if trying out the 2.0 beta Arduino please install the release 1.8 version beforehand to ensure needed device drivers are present. (See #20 for more details.)
