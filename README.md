@@ -1,9 +1,13 @@
 <h1 align = "center"> 🌟LilyGO T-Display RP2040🌟</h1>
 
+
 ![](img/T-display-RP2040.jpg)
 ![](img/DISPLAY_RP2040_details.jpg)
 
 # Quick start:
+=======
+## Quick start:
+>>>>>>> 201f79006f7e836d2c8fe4254b6e86b6af7e27d4
 
 ## Arduino
 
@@ -20,6 +24,8 @@ https://github.com/earlephilhower/arduino-pico/releases/download/global/package_
 > 8. Hold down the BOOT button, click the reset button, and release the BOOT button after a delay of one second or after waiting for the computer to eject a new disk
 > 9. Finally, click upload or drag the firmware to the new disk
 
+![](img/T-display-RP2040.jpg)
+![](img/DISPLAY_RP2040_details.jpg)
 
 
 ## MicroPython
