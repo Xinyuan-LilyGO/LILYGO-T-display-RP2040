@@ -5,9 +5,6 @@
 ![](img/DISPLAY_RP2040_details.jpg)
 
 # Quick start:
-=======
-## Quick start:
->>>>>>> 201f79006f7e836d2c8fe4254b6e86b6af7e27d4
 
 ## Arduino
 
