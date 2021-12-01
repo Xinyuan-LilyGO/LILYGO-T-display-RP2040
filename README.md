@@ -31,7 +31,7 @@ https://github.com/earlephilhower/arduino-pico/releases/download/global/package_
 >2. After the installation is complete, you need to click on the toolbar, click Run -> Select Interpreter, enter the following interface, select **Raspberry Pi Pico**, you need to configure Pico before configuring the following ports
 >3. Press the **BOOT** button, click **RES**, then go back to Thonny Python IDE and change the port to the serial port where Pico is located. If you don't find it, click **Install or update firmware**.
 >4. Enter or save as a script to run
-~~~
+```
 from machine import Pin, Timer
 led = Pin(25,Pin.OUT)
 tim = Timer()
@@ -39,9 +39,10 @@ def tick(timer):
     global led
     led.toggle()
 tim.init(freq=2.5, mode=Timer.PERIODIC, callback=tick)
-~~~
+```
 >5. If you need to save to the chip, you need to click **File->Save As->rp2040**.
 
+>6. For more usage methods, please refer to the Micro python [documentation](http://docs.micropython.org/).
 <br><br>
 ## Raspberry Pi Pico SDK
 ### The following content is from the introduction of [Raspberry Pi Pico SDK](https://github.com/raspberrypi/pico-sdk).
